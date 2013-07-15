@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script src="codemirror/lib/codemirror.js"></script>
+        <link rel="stylesheet" href="codemirror/lib/codemirror.css">
+        <script src="codemirror/mode/xml/xml.js"></script>
+        <script src="codemirror/addon/edit/closetag.js"></script>
+        <script src="codemirror/addon/fold/xml-fold.js"></script>
+        <script src="codemirror/addon/fold/foldcode.js"></script>
+        
+    </head>
+    <body>
+    <textarea id="myTextArea"></textarea>
+        <script>
+        var config = {
+            autoCloseTags: true,
+            foldGutter: true,
+            gutters: ["CodeMirror-linenumbers", "CodeMirror-foldgutter"],
+            linenumbers: true
+            };
+            var myCodeMirror = CodeMirror.fromTextArea(myTextArea, config);
+        </script>
+    </body>
+</html>

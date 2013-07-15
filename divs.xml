@@ -1,0 +1,22 @@
+<TEI>
+    <teiHeader>
+	…
+	</teiHeader>
+	<text>
+		<body>
+			<div n="1" type=”article”>
+                <bibl>
+                    <author>
+                        <persName ref="local/nameauth/white/w/1">
+                            <surname>White</surname>
+                            <forename>T.W.</forename>
+                        </persName>
+                    </author>
+                </bibl>
+    		    <head>Publisher's Notice</head>
+                <p>The gentleman referred to in the previous number...</p>
+			</div>
+            <!--rest of the issue here -->
+		</body>
+    </text>
+</TEI>
